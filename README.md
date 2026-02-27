@@ -57,11 +57,38 @@ This is a **Supervised Learning (Regression)** problem where:
 ```bash
 melbourne-house-ml/
 │
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks
-├── src/ # Scripts (optional)
-├── models/ # Saved trained models
-└── README.md # Project documentation
+├── 📁 data/
+│   ├── raw/
+│   │   └── melb_data.csv
+│   └── processed/
+│       └── cleaned_data.csv
+│
+├── 📁 notebooks/
+│   └── 01_eda_and_modeling.ipynb
+│
+├── 📁 src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   └── evaluate_model.py
+│
+├── 📁 models/
+│   └── melbourne_model.pkl
+│
+├── 📁 app/
+│   └── app.py
+│
+├── 📁 reports/
+│   ├── figures/
+│   │   ├── price_distribution.png
+│   │   └── correlation_heatmap.png
+│   └── model_results.txt
+│
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── LICENSE
 ```
 
 ---
