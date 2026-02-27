@@ -118,26 +118,6 @@ Metrics used:
 
 ---
 
-## 🚀 Future Improvements
-
-- Hyperparameter tuning using GridSearchCV
-- Cross-validation
-- Feature importance analysis
-- Deploy model using Streamlit
-- Add real-time prediction interface
-
----
-
-## 📚 What I Learned
-
-- Handling real-world messy datasets
-- Feature engineering techniques
-- Regression model comparison
-- Avoiding overfitting
-- Practical machine learning workflow
-
----
-
 ## 🧠 Author
 
 Built as part of my Machine Learning journey toward becoming an ML Engineer.
